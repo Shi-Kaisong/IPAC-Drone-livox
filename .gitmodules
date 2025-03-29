@@ -1,0 +1,3 @@
+[submodule "src/FAST_LIO"]
+	path = src/FAST_LIO
+	url = https://github.com/hku-mars/FAST_LIO.git
