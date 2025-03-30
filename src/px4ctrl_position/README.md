@@ -88,7 +88,7 @@ sudo ./install_geographiclib_datasets.sh
 以上参考 https://github.com/mavlink/mavros/blob/master/mavros/README.md#installation .
 
 
-### 3. 配置
+### 3. 配置   （bbbbbb）
 
 ```
 roscd mavros
