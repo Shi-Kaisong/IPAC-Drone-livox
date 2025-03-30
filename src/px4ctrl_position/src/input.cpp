@@ -39,7 +39,7 @@ void RC_Data_t::feed(mavros_msgs::RCInConstPtr pMsg)
     mode = ((double)msg.channels[4] - 1000.0) / 1000.0;
     gear = ((double)msg.channels[5] - 1000.0) / 1000.0;
     reboot_cmd = ((double)msg.channels[7] - 1000.0) / 1000.0;
-    position_ctrl = ((double)msg.channels[9] - 1000.0) / 1000.0;
+    position_ctrl = ((double)msg.channels[8] - 1000.0) / 1000.0;
     check_validity();
     if (!have_init_last_position_ctrl)
     {
